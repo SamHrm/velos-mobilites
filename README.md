@@ -1,6 +1,6 @@
 # Pipeline de Données de Mobilité des Bornes de Vélos en Temps Réel
 
-Ce projet traite des données d'utilisation des bornes de vélos en libre-service, disponibles en open source et en temps réel, dans les grandes villes de France. Le pipeline collecte, consolide et agrège ces données afin de faciliter leur analyse pour des besoins tels que l'optimisation des infrastructures de mobilité urbaine ou l'analyse des comportements d'utilisation.
+Ce projet traite des données d'utilisation des bornes de vélos en libre-service, disponibles en open source et en temps réel, dans les grandes villes de France (Paris, Nantes, Toulouse). Le pipeline collecte, consolide et agrège ces données afin de faciliter leur analyse pour des besoins tels que l'optimisation des infrastructures de mobilité urbaine ou l'analyse des comportements d'utilisation.
 
 ## Table des Matières
 
