@@ -27,8 +27,8 @@ Le pipeline se décompose en trois étapes principales :
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/kevinl75/polytech-de-101-2024-tp-subject.git  
-   cd polytech-de-101-2024-tp-subject
+   git clone https://github.com/SamHrm/velos-mobilites.git 
+   cd velos-mobilites
    python3 -m venv .venv
    source .venv/bin/activate
 
