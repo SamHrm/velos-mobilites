@@ -5,10 +5,9 @@ Ce projet traite des données d'utilisation des bornes de vélos en libre-servic
 ## Table des Matières
 
 1. [Structure du Projet](#structure-du-projet)
-2. [Installation](#installation)
-3. [Utilisation](#utilisation)
-4. [Description des Fichiers](#description-des-fichiers)
-5. [Contributeurs](#contributeurs)
+2. [Utilisation](#utilisation)
+3. [Description des Fichiers](#description-des-fichiers)
+4. [Contributeurs](#contributeurs)
 
 ## Structure du Projet
 
@@ -24,7 +23,7 @@ Le pipeline se décompose en trois étapes principales :
 3. **Agrégation des Données** :
    - Structure les données en tables analytiques prêtes à l’emploi, telles que des tables dimensionnelles.
 
-## Installation
+## Utilisation
 
 1. Clonez le dépôt :
    ```bash
@@ -41,7 +40,6 @@ Le pipeline se décompose en trois étapes principales :
    ```bash
    python src/main.py
 
-## Utilisation
 
 Le script exécutera les étapes suivantes :
 
