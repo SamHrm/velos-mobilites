@@ -80,4 +80,4 @@ Le point d’entrée principal du projet. Ce fichier orchestre les étapes d’i
 ## Contributeurs
 
 HROUMA Samia - [Profil GitHub](https://github.com/SamHrm)
-HROUMA Salma - [Profil GitHub](https://github.com/salmahrouma)
+HROUMA Salma - [Profil GitHub](https://github.com/Artemisal)
