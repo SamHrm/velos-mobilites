@@ -49,7 +49,7 @@ Le script exécutera les étapes suivantes :
 
 ## Description des Fichiers
 
-1. data_ingestion.py
+1. **data_ingestion.py**
 
 Ce fichier contient les fonctions pour télécharger les données open source des bornes de vélos en temps réel :
 - get_paris_realtime_bicycle_data() : Récupère les données pour les stations de Paris.
@@ -57,7 +57,7 @@ Ce fichier contient les fonctions pour télécharger les données open source de
 - get_toulouse_realtime_bicycle_data() : Récupère les données pour les stations de Toulouse.
 - get_commune_data() : Récupère des informations générales sur les communes.
 
-2. data_consolidation.py
+2. **data_consolidation.py**
 
 Ce fichier traite la normalisation et l’organisation des données ingérées :
 
@@ -66,14 +66,14 @@ Ce fichier traite la normalisation et l’organisation des données ingérées :
 - consolidate_city_data() : Consolide les données des villes (Paris, Nantes, Toulouse) à partir d'un fichier JSON et les insère dans la table CONSOLIDATE_CITY.
 - consolidate_station_statement_data() : Consolide les données des déclarations de stations de vélos pour Paris, Nantes et Toulouse et les insère dans la table CONSOLIDATE_STATION_STATEMENT.
 
-3. data_agregation.py
+3. **data_agregation.py**
 
 - create_agregate_tables() : Crée les tables destinées à l’agrégation.
 - agregate_dim_city() : Agrège les données de la table DIM_CITY en insérant ou remplaçant les informations les plus récentes provenant de CONSOLIDATE_CITY.
 - agregate_dim_station() : Agrège les données de la table DIM_STATION en insérant ou remplaçant les informations les plus récentes provenant de CONSOLIDATE_STATION.
 - agregate_fact_station_statements() : Crée une table factuelle contenant les statistiques des bornes de vélos.
 
-4. main.py
+4. **main.py**
 
 Le point d’entrée principal du projet. Ce fichier orchestre les étapes d’ingestion, de consolidation et d’agrégation des données.
 
